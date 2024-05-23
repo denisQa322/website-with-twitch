@@ -1,0 +1,220 @@
+@media only screen and (max-width: 1024px) {
+    header.header{
+        width: 1000px;
+    }
+    .first-screen{
+        width: 1000px;
+    }
+    .first-screen-header{
+        font-size: 114px;
+    }
+    .first-screen-text{
+        font-size: 25px;
+    }
+    .first-screen-img img{
+        width: 420px;
+        height: 420px;
+    }
+    .running-text{
+        width: 100%;
+    }
+    #twitch-embed iframe{
+        width: 1000px;
+    }
+    .info{
+        width: 1000px;
+    }
+    .info .info-content{
+        width: 330px;
+    }
+    .info .info-content .info-content-img img{
+        width: 132px;
+        height: 132px;
+    }
+    .info .info-content .info-content-header{
+        font-size: 25px;
+    }
+    .footer{
+        width: 1000px;
+    }
+    .footer .footer-info .buy-now a{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header.header{
+        width: 740px;
+    }
+    .first-screen{
+        width: 740px;
+    }
+    .first-screen-header{
+        font-size: 114px;
+    }
+    .first-screen-text{
+        width: 320px;
+    }
+    .first-screen-img img{
+        width: 305px;
+        height: 305px;
+    }
+    .running-text{
+        width: 100%;
+    }
+    #twitch-embed iframe{
+        width: 740px;
+    }
+    .info{
+        width: 740px;
+    }
+    .info .info-content{
+        width: 250px;
+    }
+    .footer{
+        width: 740px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    header.header{
+        width: 390px;
+    }
+    .first-screen{
+        width: 390px;
+        flex-direction: column;
+    }
+    .first-screen-info{
+        text-align: center;
+    }
+    .first-screen-header{
+        font-size: 93px;
+    }
+    .first-screen-text{
+        width: 385px;
+    }
+    .socials{
+        justify-content: center;
+    }
+    .running-text{
+        width: 100%;
+    }
+    #twitch-embed iframe{
+        width: 390px;
+    }
+    .info{
+        width: 390px;
+    }
+    .info .info-content{
+        width: 120px;
+    }
+    .info .info-content .info-content-img img{
+        width: 90px;
+        height: 90px;
+    }
+    .info .info-content .info-content-header{
+        font-size: 15px;
+    }
+    .info .info-content .info-content-text{
+        font-size: 15px;
+    }
+    .footer{
+        width: 390px;
+    }
+    .footer .footer-info .buy-now a{
+        padding: 8px;
+        font-size: 13px;
+    }
+    .footer .socials .social a img{
+        width: 35px;
+        height: 35px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    header.header{
+        width: 330px;
+    }
+    .first-screen{
+        width: 330px;
+        flex-direction: column;
+    }
+    .first-screen-info{
+        text-align: center;
+    }
+    .first-screen-header{
+        font-size: 93px;
+    }
+    .first-screen-text{
+        width: 335px;
+    }
+    .first-screen-img img{
+        width: 335px;
+        height: 335px;
+    }
+    .socials{
+        justify-content: center;
+    }
+    .running-text{
+        width: 100%;
+    }
+    #twitch-embed iframe{
+        width: 330px;
+    }
+    .info{
+        width: 330px;
+    }
+    .info .info-content{
+        width: 120px;
+    }
+    .info .info-content .info-content-img img{
+        width: 75px;
+        height: 75px;
+    }
+    .footer{
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    header.header{
+        width: 280px;
+    }
+    .first-screen{
+        width: 280px;
+        flex-direction: column;
+    }
+    .first-screen-text{
+        width: 280px;
+    }
+    .first-screen-img img{
+        width: 280px;
+        height: 280px;
+    }
+    .socials{
+        justify-content: center;
+    }
+    .running-text{
+        width: 100%;
+    }
+    #twitch-embed iframe{
+        width: 280px;
+    }
+    .info{
+        width: 280px;
+    }
+    .info .info-content{
+        width: 105px;
+    }
+    .info .info-content .info-content-img img{
+        width: 55px;
+        height: 55px;
+    }
+    .footer{
+        width: 280px;
+    }
+    .footer .socials .social a img{
+        width: 25px;
+        height: 25px;
+        padding: 0;
+    }
+}
