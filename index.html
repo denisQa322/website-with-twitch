@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="">
+                <img src="./images/4712109.png" alt="">
+            </a>
+        </div>
+        <button class="buy-now">
+            <a href="">BUY NOW</a>
+        </button>
+    </header>
+    <section class="first-screen">
+        <div class="first-screen-info">
+            <div class="first-screen-header">
+                $blub
+            </div>
+            <div class="first-screen-text">
+                blub blub blublbu blub blub blublbub!
+            </div>
+            <button class="buy-now">
+                <a href="">BUY NOW</a>    
+            </button>
+            <div class="socials">
+                <div class="social dex">
+                    <a href="">
+                        <img src="./icons/dex-screener-icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="social X">
+                    <a href="">
+                        <img src="./icons/x-icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="social tg">
+                    <a href="">
+                        <img src="./icons/tg-icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="first-screen-img">
+            <img src="./images/4712109.png" alt="">
+        </div>
+    </section>
+    <marquee class="running-text" scrollamount="25">
+        <div class="marquee-text">
+            blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub blub
+        </div>
+    </marquee>
+    <section id="twitch-embed"></section>
+    <section class="info-wrapper">
+        <div class="info">
+            <div class="info-content">
+                <div class="info-content-img">
+                    <img src="./images/4712109.png" alt="">
+                </div>
+                <div class="info-content-header">
+                    LP BURNT
+                </div>
+                <div class="info-content-text">
+                    YES
+                </div>
+            </div>
+            <div class="info-content">
+                <div class="info-content-img">
+                    <img src="./images/4712109.png" alt="">
+                </div>
+                <div class="info-content-header">
+                    TAXES
+                </div>
+                <div class="info-content-text">
+                    ZERO
+                </div>
+            </div>
+            <div class="info-content">
+                <div class="info-content-img">
+                    <img src="./images/4712109.png" alt="">
+                </div>
+                <div class="info-content-header">
+                    SUPPLY
+                </div>
+                <div class="info-content-text">
+                    1 BILLION
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <div class="footer">
+            <div class="footer-info">
+                <div class="footer-img">
+                    <img src="./images/4712109.png" alt="">
+                </div>
+                <button class="buy-now">
+                    <a href="">BUY NOW</a>
+                </button>
+            </div>
+            <div class="socials">
+                <div class="social dex">
+                    <a href="">
+                        <img src="./icons/dex-screener-icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="social X">
+                    <a href="">
+                        <img src="./icons/x-icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="social tg">
+                    <a href="">
+                        <img src="./icons/tg-icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+            width: 1280,
+            height: 720,
+            channel: "rostislav_999",
+            autoplay: true,
+        });
+    </script>
+</body>
+</html>

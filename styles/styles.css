@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #BEFFEE;
+    font-family: "Coiny", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #19AAE7;
+    font-family: "Coiny", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.header .logo a img{
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    border: 1px solid;
+    background-color: white;
+}
+.buy-now{
+    border: none;
+    background: none;
+}
+
+.buy-now a{
+    padding: 11px;
+    font-size: 19px;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.first-screen{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.first-screen-info{
+    text-align: start;
+    padding: 10px;
+}
+
+.first-screen-header{
+    font-size: 150px;
+    margin-bottom: 15px;
+}
+
+.first-screen-text{
+    width: 500px;
+    font-size: 40px;  
+    margin-bottom: 15px;
+}
+
+.first-screen-info button.buy-now{
+    background-color: #19AAE7;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.first-screen-img img{
+    border: 2px solid #19AAE7;
+    border-radius: 80px;
+    width: 473px;
+    height: 473px;
+    background-color: white;
+}
+
+.socials{
+    display: flex;
+    gap: 15px;
+}
+
+.socials .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials .social a img{
+    background-color: #19AAE7;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.running-text{
+    font-size: 40px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #19AAE7;
+    color: white;
+}
+
+#twitch-embed{
+    padding: 30px 0;
+}
+
+.info-wrapper{
+    background-color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.info .info-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.info .info-content .info-content-img{
+    margin-bottom: 30px;
+}
+
+.info .info-content .info-content-img img{
+    width: 220px;
+    background-color: #19AAE7;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid #19AAE7;
+}
+
+.info .info-content .info-content-header{
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+
+.info .info-content .info-content-text{
+    font-size: 35px;
+}
+
+.footer-wrapper{
+    background-color: #19AAE7;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+
+.footer .footer-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .footer-info .footer-img img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.footer .footer-info .buy-now a{
+    padding: 8px;
+}
