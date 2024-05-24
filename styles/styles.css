@@ -51,6 +51,7 @@ a{
 
 .first-screen-wrapper{
     background-color: #7b7b7b;
+    padding: 25px 0;
 }
 
 .first-screen{
@@ -68,7 +69,7 @@ a{
 }
 
 .first-screen-header{
-    font-size: 150px;
+    font-size: 95px;
     margin-bottom: 15px;
 }
 

@@ -6,7 +6,7 @@
         width: 1000px;
     }
     .first-screen-header{
-        font-size: 114px;
+        font-size: 75px;
     }
     .first-screen-text{
         font-size: 25px;
@@ -49,7 +49,7 @@
         width: 740px;
     }
     .first-screen-header{
-        font-size: 114px;
+        font-size: 60px;
     }
     .first-screen-text{
         width: 320px;
@@ -86,7 +86,7 @@
         text-align: center;
     }
     .first-screen-header{
-        font-size: 93px;
+        font-size: 50px;
     }
     .first-screen-text{
         width: 385px;
@@ -146,7 +146,7 @@
         text-align: center;
     }
     .first-screen-header{
-        font-size: 93px;
+        font-size: 45px;
     }
     .first-screen-text{
         width: 335px;
@@ -191,6 +191,9 @@
     .first-screen{
         width: 280px;
         flex-direction: column;
+    }
+    .first-screen-header{
+        font-size: 35px;
     }
     .first-screen-text{
         width: 280px;
