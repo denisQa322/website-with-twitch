@@ -10,13 +10,13 @@ body{
     background-size: cover;
     background-position: center;
     text-align: center;
-    background-color: #BEFFEE;
+    background-color: #D2AFFF;
     font-family: "Coiny", sans-serif;
 }
 
 a{
     text-decoration: none;
-    color: #19AAE7;
+    color: #9a3da7;
     font-family: "Coiny", sans-serif;
 }
 
@@ -49,12 +49,17 @@ a{
     border-radius: 15px;
 }
 
+.first-screen-wrapper{
+    background-color: #7b7b7b;
+}
+
 .first-screen{
     width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    background-color: #7b7b7b;
 }
 
 .first-screen-info{
@@ -75,18 +80,16 @@ a{
 }
 
 .first-screen-info button.buy-now{
-    background-color: #19AAE7;
+    background-color: #e7d1ff;
     color: white;
     border-radius: 15px;
     margin-bottom: 25px;
 }
 
-.first-screen-img img{
-    border: 2px solid #19AAE7;
+.first-screen-img video{
     border-radius: 80px;
     width: 473px;
     height: 473px;
-    background-color: white;
 }
 
 .socials{
@@ -100,7 +103,7 @@ a{
     justify-content: center;
 }
 .socials .social a img{
-    background-color: #19AAE7;
+    background-color: #e7d1ff;
     width: 55px;
     height: 55px;
     padding: 10px;
@@ -112,7 +115,7 @@ a{
     padding: 15px 0;
     display: flex;
     flex-direction: row;
-    background-color: #19AAE7;
+    background-color: #9a3da7;
     color: white;
 }
 
@@ -145,9 +148,9 @@ a{
 .info .info-content .info-content-img img{
     width: 220px;
     height: 220px;
-    background-color: #19AAE7;
+    background-color: #e7d1ff;
     border-radius: 50%;
-    border: 2px solid #19AAE7;
+    border: 2px solid #e7d1ff;
 }
 
 .info .info-content .info-content-header{
@@ -160,8 +163,8 @@ a{
 }
 
 .footer-wrapper{
-    background-color: #19AAE7;
-    padding: 10px;
+    background-color: #9a3da7;
+    padding: 10px 0;
 }
 
 .footer{
