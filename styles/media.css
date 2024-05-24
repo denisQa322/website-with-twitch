@@ -11,7 +11,7 @@
     .first-screen-text{
         font-size: 25px;
     }
-    .first-screen-img video{
+    .first-screen-img img{
         width: 420px;
         height: 420px;
     }
@@ -54,7 +54,7 @@
     .first-screen-text{
         width: 320px;
     }
-    .first-screen-img video{
+    .first-screen-img img{
         width: 305px;
         height: 305px;
     }
@@ -151,7 +151,7 @@
     .first-screen-text{
         width: 335px;
     }
-    .first-screen-img video{
+    .first-screen-img img{
         width: 335px;
         height: 335px;
     }
@@ -198,7 +198,7 @@
     .first-screen-text{
         width: 280px;
     }
-    .first-screen-img video{
+    .first-screen-img img{
         width: 280px;
         height: 280px;
     }

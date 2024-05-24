@@ -50,7 +50,6 @@ a{
 }
 
 .first-screen-wrapper{
-    background-color: #7b7b7b;
     padding: 25px 0;
 }
 
@@ -60,7 +59,6 @@ a{
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
-    background-color: #7b7b7b;
 }
 
 .first-screen-info{
@@ -92,9 +90,8 @@ a{
     
 }
 
-.first-screen-img video{
-    border-radius: 80px;
-    width: 473px;
+.first-screen-img img{
+    width: 420px;
     height: 473px;
 }
 
@@ -130,7 +127,7 @@ a{
 }
 
 .info-wrapper{
-    background-color: white;
+    background-color: #9a3da7;
 }
 
 .info{
@@ -169,7 +166,7 @@ a{
 }
 
 .footer-wrapper{
-    background-color: #9a3da7;
+    background-color: #D2AFFF;
     padding: 10px 0;
 }
 
