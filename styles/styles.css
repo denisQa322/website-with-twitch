@@ -34,7 +34,7 @@ a{
     height: 54px;
     width: 54px;
     border: 1px solid;
-    background-color: white;
+    background-color: #7b7b7b;
 }
 .buy-now{
     border: none;
@@ -79,11 +79,16 @@ a{
     word-wrap: break-word;
 }
 
+.first-screen-links{
+    display: flex;
+    gap: 20px;
+}
+
 .first-screen-info button.buy-now{
-    background-color: #e7d1ff;
     color: white;
     border-radius: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+    
 }
 
 .first-screen-img video{
@@ -148,9 +153,9 @@ a{
 .info .info-content .info-content-img img{
     width: 220px;
     height: 220px;
-    background-color: #e7d1ff;
+    background-color: #7b7b7b;
     border-radius: 50%;
-    border: 2px solid #e7d1ff;
+    border: 2px solid #7b7b7b;
 }
 
 .info .info-content .info-content-header{
@@ -185,6 +190,7 @@ a{
     height: 40px;
     border: 2px solid white;
     border-radius: 50%;
+    background-color: #7b7b7b;
 }
 
 .footer .footer-info .buy-now a{
