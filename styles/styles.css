@@ -26,22 +26,6 @@ a{
     left: 0;
     width: 100%;
     z-index: -100;
-  }
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: auto;
-    margin-bottom: 50px;
-    padding-top: 10px;
-}
-
-.header .logo a img{
-    border-radius: 50%;
-    height: 54px;
-    width: 54px;
-    border: 1px solid;
 }
 .buy-now{
     border: none;
@@ -120,11 +104,50 @@ a{
 }
 
 .running-text{
-    font-size: 40px;
-    padding: 15px 0;
-    display: flex;
-    flex-direction: row;
+    font-size: 50px;
     color: white;
+}
+
+.glow-text-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.glow::before, glow::after{
+    content:'';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 400%;
+    width: 100%;
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.marquee-text{
+}
+
+.glow::after{
+    filter: blur(40px);
 }
 
 #twitch-embed{
