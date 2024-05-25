@@ -146,19 +146,32 @@ a{
 
 #twitch-embed{
     padding: 30px 0;
+    position: relative;
+}
+
+
+#twitch-embed .bg-video-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+}
+.info-wrapper{
     background-image: url('../images/vecteezy_gradient-abstract-background-purple-blue-and-black_32313689.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .info{
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     width: 1200px;
     margin: auto;
     padding: 50px 0;
-    color: black;
+    color: white;
 }
 
 .info .info-content{
@@ -189,7 +202,10 @@ a{
 
 .footer-wrapper{
     padding: 10px 0;
-    background-color: #e1c4ff;
+    background-image: url('../images/vecteezy_gradient-abstract-background-purple-blue-and-black_32313689.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer{
