@@ -1,5 +1,14 @@
 @media only screen and (max-width: 1024px) {
-    header.header{
+    body{
+        background-image: url('../images/vecteezy_gradient-abstract-background-purple-blue-and-black_32313689.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    video{
+        display: none;
+    }
+    header .header{
         width: 1000px;
     }
     .first-screen{
@@ -12,14 +21,17 @@
         font-size: 25px;
     }
     .first-screen-img img{
-        width: 420px;
-        height: 420px;
+        width: 405px;
+        height: 405px;
     }
     .running-text{
         width: 100%;
     }
     #twitch-embed iframe{
         width: 1000px;
+    }
+    .info-wrapper{
+        background-image: none;
     }
     .info{
         width: 1000px;
@@ -34,10 +46,10 @@
     .info .info-content .info-content-header{
         font-size: 25px;
     }
-    .footer{
+    .footer-top, .footer-bottom{
         width: 1000px;
     }
-    .footer .footer-info .buy-now a{
+    .footer-top .footer-info .buy-now a{
         font-size: 15px;
     }
 }
@@ -70,7 +82,7 @@
     .info .info-content{
         width: 250px;
     }
-    .footer{
+    .footer-top, .footer-bottom{
         width: 740px;
     }
 }
@@ -105,13 +117,19 @@
     }
     .info{
         width: 390px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
     .info .info-content{
-        width: 120px;
+        width: 150px;
+    }
+    .info .info-content .info-content-img{
+        margin-bottom: 0;
     }
     .info .info-content .info-content-img img{
-        width: 90px;
-        height: 90px;
+        width: 150px;
+        height: 150px;
     }
     .info .info-content .info-content-header{
         font-size: 15px;
@@ -119,18 +137,21 @@
     .info .info-content .info-content-text{
         font-size: 15px;
     }
-    .footer{
+    .footer-top, .footer-bottom{
         width: 390px;
     }
-    .footer .footer-info .buy-now a{
+    .footer-top  .footer-info .buy-now a{
         padding: 8px;
         font-size: 13px;
     }
-    .footer .socials .social a img{
+    .footer-top  .socials .social a img{
         width: 25px;
         height: 25px;
         padding: 0;
         border-radius: 5px;
+    }
+    .footer-bottom{
+        font-size: 13px;
     }
 }
 
@@ -167,17 +188,10 @@
     .info{
         width: 330px;
     }
-    .info .info-content{
-        width: 120px;
-    }
-    .info .info-content .info-content-img img{
-        width: 75px;
-        height: 75px;
-    }
-    .footer{
+    .footer-top, .footer-bottom{
         width: 330px;
     }
-    .footer .socials .social a img{
+    .footer-top  .socials .social a img{
         width: 20px;
         height: 20px;
         padding: 0;
@@ -214,14 +228,10 @@
     .info{
         width: 280px;
     }
-    .info .info-content{
-        width: 105px;
-    }
-    .info .info-content .info-content-img img{
-        width: 55px;
-        height: 55px;
-    }
-    .footer{
+    .footer-top, .footer-bottom{
         width: 280px;
+    }
+    .footer-bottom{
+        font-size: 10px;
     }
 }
